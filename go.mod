@@ -18,8 +18,9 @@ require (
 	gopkg.in/yaml.v2 v2.3.0
 	k8s.io/api v0.19.0
 	k8s.io/apimachinery v0.19.0
-	k8s.io/client-go v0.19.0-rc.2
-	k8s.io/component-base v0.19.0-rc.2
+	k8s.io/apiserver v0.19.0 // indirect
+	k8s.io/client-go v0.19.0
+	k8s.io/component-base v0.19.0
 	k8s.io/klog v1.0.0
 	monis.app/go v0.0.0-20190702030534-c65526068664
 )
